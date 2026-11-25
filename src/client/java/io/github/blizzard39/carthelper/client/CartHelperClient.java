@@ -23,7 +23,7 @@ public class CartHelperClient implements ClientModInitializer {
         toggleKey = KeyBindingHelper.registerKeyBinding(new KeyMapping(
                 "key.cart-helper.toggle",
                 InputConstants.Type.KEYSYM,
-                GLFW.GLFW_KEY_R,
+                GLFW.GLFW_KEY_J,
                 CATEGORY
         ));
 
