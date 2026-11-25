@@ -19,7 +19,7 @@
 
 ## ✨ What is Cart Helper?
 
-Cart Helper is a small **client-side** quality-of-life mod for TNT minecart PvP. Instead of fumbling with your hotbar in the middle of a fight, you shoot your bow, tap the slot with your rails, and the mod does the rest: it places the rail and then a TNT minecart on top of it, all in a single game tick. 🏹➡️🛤️➡️💣
+Cart Helper is a small **client-side** quality-of-life mod for TNT minecart PvP. Instead of fumbling with your hotbar in the middle of a fight, you shoot your bow, tap the slot with your rails, and the mod does the rest: it places the rail and then a TNT minecart on top of it, in a single game tick by default (every delay is configurable). 🏹➡️🛤️➡️💣
 
 Because it is client-side only, **nothing needs to be installed on the server** and the mod works in single player and on any server that allows client mods.
 
@@ -29,7 +29,7 @@ The mod is a simple chain of checks, like a big `if / elif / else`:
 
 1. 🎒 **Preconditions:** your hotbar must contain a **bow**, at least one **TNT minecart** and at least one **rail** (any of the 4 types).
 2. 🏹 **Bow fired:** the mod notices when you release the bow after drawing it long enough to actually fire an arrow.
-3. ⏱️ **2-second window:** a 2-second timer starts right when the arrow is fired.
+3. ⏱️ **2-second window:** a timer (2 seconds by default) starts right when the arrow is fired.
 4. 🔁 **You switch to a rail slot:** if, inside the window, you **switch to** a hotbar slot containing a rail, the mod arms itself. Simply holding a rail never does anything.
 5. 🔍 **Placement check:** it looks at the block you are aiming at and checks that the rail can really be placed there (empty or replaceable space, and the rail can survive on the block below).
 6. 🛤️ **Rail placed:** the rail is placed instantly.
@@ -53,6 +53,7 @@ The mod is a simple chain of checks, like a big `if / elif / else`:
 | 🎮 Minecraft: Java Edition | **1.21.11** |
 | 🧵 [Fabric Loader](https://fabricmc.net/use/installer/) | latest |
 | 🧩 [Fabric API](https://modrinth.com/mod/fabric-api) | for 1.21.11 |
+| 🧭 [Mod Menu](https://modrinth.com/mod/modmenu) | optional, only for the in-game settings screen |
 | ☕ Java | 21 or newer |
 
 ### 🪜 Steps
