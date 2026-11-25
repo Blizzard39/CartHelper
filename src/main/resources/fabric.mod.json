@@ -8,8 +8,9 @@
     "Me!"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Blizzard39/CartHelper",
+    "sources": "https://github.com/Blizzard39/CartHelper",
+    "issues": "https://github.com/Blizzard39/CartHelper/issues"
   },
   "license": "CC0-1.0",
   "icon": "assets/cart-helper/icon.png",
