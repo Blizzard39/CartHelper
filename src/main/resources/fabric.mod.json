@@ -12,7 +12,7 @@
     "sources": "https://github.com/Blizzard39/CartHelper",
     "issues": "https://github.com/Blizzard39/CartHelper/issues"
   },
-  "license": "CC0-1.0",
+  "license": "GPL-3.0-or-later",
   "icon": "assets/cart-helper/icon.png",
   "environment": "*",
   "entrypoints": {
