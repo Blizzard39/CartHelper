@@ -78,10 +78,10 @@ The key can be changed any time: **Options → Controls → Key Binds → Cart H
 
 When you toggle the mod, a message appears in your own chat: `Cart Helper: ON` ✅ or `Cart Helper: OFF` ❌. The mod starts **off** every time you launch the game.
 
-## 🧪 Quick test (single player)
+## License
 
-1. 🌍 Create a creative world.
-2. 🎒 Put a bow, arrows, some rails and 2 TNT minecarts in **different hotbar slots**.
-3. 🔛 Press `J`.
-4. 🏹 Draw and release the bow.
-5. 🔢 Within 2 seconds, press the
+Cart Helper is licensed under the GNU General Public License v3.0 or later (GPL-3.0-or-later).
+
+This additional licensing offer also applies to earlier versions of Cart Helper authored by the project owner. Previously granted CC0 permissions remain valid.
+
+See [LICENSE](LICENSE) for the full license text.
